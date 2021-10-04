@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "cover": "https://i.ibb.co/pnYrHj2/react.jpg",
+        "title": "Basic React",
+        "instructor": "Mr. Alfred Joe",
+        "hours": 48,
+        "certificate": "YES",
+        "fee": 2500
+    },
+    {
+        "id": 2,
+        "cover": "https://i.ibb.co/SrN9MSN/excel.jpg",
+        "title": "Excel Advance",
+        "instructor": "Mr. Saymon Anderson",
+        "hours": 15,
+        "certificate": "NO",
+        "fee": 1000
+    },
+    {
+        "id": 3,
+        "cover": "https://i.ibb.co/2n40zfh/html.jpg",
+        "title": "HTML5 and CSS3",
+        "instructor": "Mr. Palash Islam",
+        "hours": 40,
+        "certificate": "YES",
+        "fee": 2800
+    },
+    {
+        "id": 4,
+        "cover": "https://i.ibb.co/PrSgydG/javascript.jpg",
+        "title": "Complete Javascript",
+        "instructor": "Mr. Jason Albert",
+        "hours": 35,
+        "certificate": "YES",
+        "fee": 2200
+    },
+    {
+        "id": 5,
+        "cover": "https://i.ibb.co/pxG7jLp/ml.jpg",
+        "title": "Machine Learning",
+        "instructor": "Mr. Raymen Jr",
+        "hours": 60,
+        "certificate": "NO",
+        "fee": 4500
+    },
+    {
+        "id": 6,
+        "cover": "https://i.ibb.co/Rcmggff/nodejs.jpg",
+        "title": "NodeJs & MongoDB",
+        "instructor": "Mr Nil Ferdo",
+        "hours": 56,
+        "certificate": "YES",
+        "fee": 5000
+    },
+    {
+        "id": 7,
+        "cover": "https://i.ibb.co/0VM4FFC/php.jpg",
+        "title": "PHP & MySQL",
+        "instructor": "Mr. Albert Steyn",
+        "hours": 40,
+        "certificate": "NO",
+        "fee": 1800
+    },
+    {
+        "id": 8,
+        "cover": "https://i.ibb.co/tsZc37q/python.jpg",
+        "title": "Python Basic",
+        "instructor": "Mr. Jhonas Roy",
+        "hours": 45,
+        "certificate": "YES",
+        "fee": 2000
+    },
+    {
+        "id": 9,
+        "cover": "https://i.ibb.co/31LTrmb/python-Advance.jpg",
+        "title": "Python Intermediate",
+        "instructor": "Mr. Jhonas Roy",
+        "hours": 72,
+        "certificate": "YES",
+        "fee": 3500
+    }
+]
