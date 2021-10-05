@@ -1,0 +1,22 @@
+.course-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3% 10%;
+}
+
+@media (max-width: 992px){
+    .course-list{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+/* Responsive customization for mobile phone */
+@media (max-width: 668px){
+    .course-list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+   
+}

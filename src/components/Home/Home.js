@@ -1,17 +1,30 @@
 import React, { useEffect, useState } from 'react';
+import { Card, Col, Row } from 'react-bootstrap';
 import courseData from '../../CourseData/courseData.json'
+import Course from '../Course/Course';
+import './Home.css'
 const Home = () => {
 
     const [course, setCourse] = useState([]);
 
     useEffect(() => {
-        const setCourse = (courseData);
+        setCourse(courseData);
         console.log(courseData);
     }, [course])
 
+    const someCourse = course.filter(crs => crs.id <= 5)
+
     return (
-        <div>
-            <h2>This is Home</h2>
+        // <Row xs={1} md={3} className="g-4">
+        //     {
+        //         course.map(eachCourse => <Course course={eachCourse}></Course>)
+        //     }
+        // </Row>
+        <div className="course-list">
+            {
+                someCourse.map(eachCourse => <Course course={eachCourse}></Course>)
+
+            }
         </div>
     );
 };
