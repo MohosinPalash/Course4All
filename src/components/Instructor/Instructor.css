@@ -1,4 +1,4 @@
-.instructor-list{
+.instructor-list, .popular-list{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
@@ -14,13 +14,13 @@
 }
 
 @media (max-width: 992px){
-    .instructor-list{
+    .instructor-list, .popular-list{
         grid-template-columns: repeat(2, 1fr);
     }
 }
 /* Responsive customization for mobile phone */
 @media (max-width: 668px){
-    .instructor-list{
+    .instructor-list, .popular-list{
         grid-template-columns: repeat(1, 1fr);
     }
    
