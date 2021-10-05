@@ -23,7 +23,6 @@ const Home = () => {
         <div className="course-list">
             {
                 someCourse.map(eachCourse => <Course course={eachCourse}></Course>)
-
             }
         </div>
     );

@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "dp": "https://i.ibb.co/1rZ4xG6/sarah-brush.jpg",
+        "name": "Dr. Angela Yu",
+        "subject": "C++",
+        "students": 2487689,
+        "rating": 4.4
+    },
+    {
+        "id": 2,
+        "dp": "https://i.ibb.co/6WFzvp0/Abulafia.jpg",
+        "name": "Jose Portilla",
+        "subject": "C#",
+        "students": 3657689,
+        "rating": 4.7
+    },
+    {
+        "id": 3,
+        "dp": "https://i.ibb.co/KNLLZ0Z/Adam-0.jpg",
+        "name": "Stephen Grinder",
+        "subject": "Java",
+        "students": 5687689,
+        "rating": 4.9
+    },
+    {
+        "id": 4,
+        "dp": "https://i.ibb.co/RT1FN38/al-Akiti.jpg",
+        "name": "Colt Steele",
+        "subject": "Python",
+        "students": 48,
+        "rating": 4.0
+    },
+    {
+        "id": 5,
+        "dp": "https://i.ibb.co/TrStpbs/Atherstone.jpg",
+        "name": "Jonas Nicolas",
+        "subject": "Web Development",
+        "students": 3489689,
+        "rating": 4.3
+    },
+    {
+        "id": 6,
+        "dp": "https://i.ibb.co/6ysWZzT/barnabas-aspray-profile-picture.jpg",
+        "name": "Barnabas Aspary",
+        "subject": "Data Science",
+        "students": 4487689,
+        "rating": 4.2
+    },
+    {
+        "id": 7,
+        "dp": "https://i.ibb.co/J5Vvvyk/Burdett.jpg",
+        "name": "Burdett Nicks",
+        "subject": "React",
+        "students": 887689,
+        "rating": 4.6
+    },
+    {
+        "id": 8,
+        "dp": "https://i.ibb.co/wwQwkWV/OLYMPUS-DIGITAL-CAMERA.jpg",
+        "name": "Redt Olympus",
+        "subject": "Javascript",
+        "students": 4287689,
+        "rating": 4.5
+    }
+]

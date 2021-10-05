@@ -1,0 +1,27 @@
+.instructor-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3% 10%;
+}
+.heading{
+    margin-top: 10px;
+    text-align: center;
+    color: orangered;
+}
+
+@media (max-width: 992px){
+    .instructor-list{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+/* Responsive customization for mobile phone */
+@media (max-width: 668px){
+    .instructor-list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+   
+}
