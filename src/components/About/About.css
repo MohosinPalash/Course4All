@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    
+}
+h2{
+    margin-top:20px;
+}
+.service-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3% 10%;
+}
+.service-div{
+    font-size:15px;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(100, 98, 98);
+}
+.service-div strong{
+    font-size:25px;
+}
+
+.service-cover{
+    border-radius: 5px;
+    width: 50%;
+    height: 50%;
+}
+
+@media (max-width: 992px){
+    .service-list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+

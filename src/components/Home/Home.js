@@ -12,7 +12,7 @@ const Home = () => {
         console.log(courseData);
     }, [course])
 
-    const someCourse = course.filter(crs => crs.id <= 5)
+    const someCourse = course.filter(crs => crs.id % 2)
 
     return (
         // <Row xs={1} md={3} className="g-4">
